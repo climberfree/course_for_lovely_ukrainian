@@ -1,7 +1,7 @@
 # course_for_lovely_ukrainian
 Test code and home tasks 
 
-05.06.2022
+<b>05.06.2022</b>
 
 <b>Easy</b>
 
