@@ -1,4 +1,4 @@
-package com.free.medium;
+package yuliia.hw1.medium;
 
 class PrinterString {
 

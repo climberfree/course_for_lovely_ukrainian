@@ -1,6 +1,4 @@
-package com.free.easy;
-
-import com.free.easy.PrinterInt;
+package yuliia.hw1.easy;
 
 public class Easy {
 

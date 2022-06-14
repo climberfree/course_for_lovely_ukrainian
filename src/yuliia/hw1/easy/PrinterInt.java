@@ -1,4 +1,4 @@
-package com.free.easy;
+package yuliia.hw1.easy;
 
 class PrinterInt {
 
