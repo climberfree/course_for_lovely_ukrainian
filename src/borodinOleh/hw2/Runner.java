@@ -8,7 +8,7 @@ public class Runner {
 
     public static void main(String[] args) {
 
-       TraningArray.sumArrayElements();
+       homework.hw2.TraningArray.sumArrayElements();
         readTxtFile("/Users/olegborodi/Desktop/text.txt");
     }
 }
