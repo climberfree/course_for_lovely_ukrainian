@@ -1,0 +1,7 @@
+package borodinOleh.Football.entities;
+
+public enum FootballPosition {
+    GOALKEEPER, CENTER_BACK, LEFT_BACK, RIGHT_BACK, LEFT_MID, RIGHT_MID, CENTER_MD, ATTACKING_MID, DEFENSIVE_MID,
+    STRIKER, CENTER_FORWARD, WINGER
+}
+
