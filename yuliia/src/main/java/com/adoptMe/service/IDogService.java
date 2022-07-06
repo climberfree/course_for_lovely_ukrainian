@@ -1,7 +1,7 @@
-package yuliia.adoptMe.service;
+package com.adoptMe.service;
 
-import yuliia.adoptMe.entities.Dog;
-import yuliia.adoptMe.entities.Human;
+import com.adoptMe.entities.Dog;
+import com.adoptMe.entities.Human;
 
 public interface IDogService {
 

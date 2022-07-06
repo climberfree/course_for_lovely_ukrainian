@@ -1,4 +1,4 @@
-package yuliia.adoptMe.entities;
+package com.adoptMe.entities;
 
 import java.util.HashSet;
 import java.util.Set;

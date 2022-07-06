@@ -1,7 +1,9 @@
-package yuliia.adoptMe.entities;
+package com.adoptMe.entities;
 
 public class Dog {
     private String name;
+    private int id;
+
     private int age;
     private String breed;
     private Human owner;
@@ -19,6 +21,8 @@ public class Dog {
         this.age = age;
         this.breed = breed;
     }
+    public Dog() {
+    }
 
     public int getAge() {
         return age;
@@ -26,6 +30,9 @@ public class Dog {
 
     public void setAge(int age) {
         this.age = age;
+    }
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getBreed() {

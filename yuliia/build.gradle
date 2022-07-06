@@ -1,0 +1,13 @@
+plugins{
+    id 'java'
+}
+sourceCompatibility = '1.8'
+
+repositories{
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'commons-cli:commons-cli:1.5.0'
+    implementation 'mysql:mysql-connector-java:8.0.26'
+}

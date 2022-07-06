@@ -1,8 +1,8 @@
-package yuliia.adoptMe.service.impl;
+package com.adoptMe.service.impl;
 
-import yuliia.adoptMe.entities.Dog;
-import yuliia.adoptMe.entities.Human;
-import yuliia.adoptMe.service.IDogService;
+import com.adoptMe.entities.Dog;
+import com.adoptMe.entities.Human;
+import com.adoptMe.service.IDogService;
 
 
 public class DogService implements IDogService {
