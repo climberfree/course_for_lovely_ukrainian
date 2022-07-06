@@ -4,6 +4,7 @@ import com.adoptMe.config.Database;
 import com.adoptMe.entities.Dog;
 import com.adoptMe.entities.Human;
 import com.adoptMe.entities.Sex;
+import com.adoptMe.repositories.DogRepository;
 import com.adoptMe.service.IDogService;
 import com.adoptMe.service.impl.DogService;
 
@@ -15,11 +16,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int [] array = new int[2];
-        array[0]=1;
-        array[1]=1;
-        array[2]=1;
-//
+        DogRepository dogRepository = new DogRepository();
+        List<Dog> dogs =  dogRepository.dogs();
+        System.out.println(dogs);
 //        Map<String, List<Dog>> dogs = new HashMap<>();
 //
 //

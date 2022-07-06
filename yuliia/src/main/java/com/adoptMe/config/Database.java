@@ -8,14 +8,16 @@ public class Database {
     private static Connection connection;
 
     private Database(){
-        try {
-            this.connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/adoptme", "yulia" , "yulia");
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
     }
 
     public static Connection getConnection(){
+        if(connection == null){
+            try {
+                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/adoptme", "yulia" , "yulia");
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+        }
         return connection;
     }
 
