@@ -1,4 +1,4 @@
-package gennadiy_savitskiy.hw1;
+package gennadiy_savitskiy_homworks.hw1;
 
 public class UserArgumentReverse {
     public static void main(String[] args) {

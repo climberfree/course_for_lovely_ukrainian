@@ -1,4 +1,4 @@
-package gennadiy_savitskiy.hw2;
+package gennadiy_savitskiy_homworks.hw2;
 
 import java.io.File;
 import java.io.FileNotFoundException;
