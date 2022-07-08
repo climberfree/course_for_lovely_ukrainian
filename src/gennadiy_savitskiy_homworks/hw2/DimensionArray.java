@@ -1,4 +1,4 @@
-package gennadiy_savitskiy.hw2;
+package gennadiy_savitskiy_homworks.hw2;
 
 public class DimensionArray {
 

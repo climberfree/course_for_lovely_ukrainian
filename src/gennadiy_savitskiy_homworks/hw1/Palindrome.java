@@ -1,4 +1,4 @@
-package gennadiy_savitskiy.hw1;
+package gennadiy_savitskiy_homworks.hw1;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package gennadiy_savitskiy.hw3;
+package gennadiy_savitskiy_homworks.hw3;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
