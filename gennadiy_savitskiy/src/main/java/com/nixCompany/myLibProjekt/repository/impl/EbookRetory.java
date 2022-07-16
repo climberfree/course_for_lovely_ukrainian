@@ -1,18 +1,20 @@
-package com.nixCompany.myLibProjekt.services.impl;
+package com.nixCompany.myLibProjekt.repository.impl;
 
 import com.nixCompany.myLibProjekt.entities.Ebook;
-import com.nixCompany.myLibProjekt.services.EbookRepository;
+import com.nixCompany.myLibProjekt.repository.IEbookRetory;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class EbookService implements EbookRepository {
+public class EbookRetory implements IEbookRetory {
 
     private static List<Ebook> ebookList;
-    public EbookService() {
+    public EbookRetory() {
         ebookList = createListOfEbooks();
     }
+
+
 
     @Override
     public List<Ebook> createListOfEbooks() {
@@ -32,10 +34,9 @@ public class EbookService implements EbookRepository {
         for (Ebook book : ebookList) {
             if (book.getId() == id) {
                 return book;
-            } else {
-                System.out.println("There are no Ebook with such id");
             }
         }
+        System.out.println("There are no Ebook with such id");
         return null;
     }
 
